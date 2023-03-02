@@ -6,7 +6,6 @@ require (
 	github.com/apache/thrift v0.13.0 // indirect
 	github.com/bytedance/go-tagexpr/v2 v2.9.2
 	github.com/bytedance/gopkg v0.0.0-20220413063733-65bf48ffb3a7
-	github.com/bytedance/sonic v1.8.1
 	github.com/cloudwego/netpoll v0.3.1
 	github.com/cloudwego/thriftgo v0.1.7 // indirect
 	github.com/fsnotify/fsnotify v1.5.4

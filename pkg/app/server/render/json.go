@@ -45,7 +45,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	hjson "github.com/cloudwego/hertz/pkg/common/json"
+	//hjson "github.com/cloudwego/hertz/pkg/common/json"
 	"github.com/cloudwego/hertz/pkg/protocol"
 )
 
@@ -54,9 +54,9 @@ type JSONMarshaler func(v interface{}) ([]byte, error)
 
 var jsonMarshalFunc JSONMarshaler
 
-func init() {
-	ResetJSONMarshal(hjson.Marshal)
-}
+//func init() {
+//	ResetJSONMarshal(hjson.Marshal)
+//}
 
 func ResetJSONMarshal(fn JSONMarshaler) {
 	jsonMarshalFunc = fn

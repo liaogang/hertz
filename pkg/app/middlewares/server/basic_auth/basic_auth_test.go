@@ -45,9 +45,9 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	"github.com/liaogang/hertz/pkg/app"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestPairs(t *testing.T) {

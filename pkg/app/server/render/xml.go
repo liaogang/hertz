@@ -44,7 +44,7 @@ package render
 import (
 	"encoding/xml"
 
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol"
 )
 
 // XML contains the given interface object.

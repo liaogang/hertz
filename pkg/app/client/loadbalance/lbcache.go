@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/client/discovery"
-	"github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/app/client/discovery"
+	"github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/hlog"
+	"github.com/liaogang/hertz/pkg/protocol"
 	"golang.org/x/sync/singleflight"
 )
 

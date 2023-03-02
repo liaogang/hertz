@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestDefaultAndSysLogger(t *testing.T) {

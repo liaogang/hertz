@@ -55,14 +55,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/config"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/common/test/mock"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/resp"
+	"github.com/liaogang/hertz/pkg/common/config"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/mock"
+	"github.com/liaogang/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/protocol/http1/resp"
 	"github.com/cloudwego/netpoll"
 )
 

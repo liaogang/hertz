@@ -22,8 +22,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/server/registry"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/app/server/registry"
+	"github.com/liaogang/hertz/pkg/network"
 )
 
 // Option is the only struct that can be used to set Options.

@@ -19,7 +19,7 @@ package client
 import (
 	"context"
 
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol"
 )
 
 // Endpoint represent one method for calling from remote.

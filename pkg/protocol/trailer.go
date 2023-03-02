@@ -19,10 +19,10 @@ package protocol
 import (
 	"bytes"
 
-	"github.com/cloudwego/hertz/internal/bytestr"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/internal/bytestr"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/utils"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 type Trailer struct {

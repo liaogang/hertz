@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 // TestRequestOptions test request options with custom values

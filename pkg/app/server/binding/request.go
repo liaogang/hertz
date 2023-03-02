@@ -22,8 +22,8 @@ import (
 	"net/url"
 
 	"github.com/bytedance/go-tagexpr/v2/binding"
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	"github.com/liaogang/hertz/pkg/protocol"
 )
 
 func wrapRequest(req *protocol.Request) binding.Request {

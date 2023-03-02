@@ -17,7 +17,7 @@
 package server
 
 import (
-	"github.com/cloudwego/hertz/pkg/app/server/registry"
+	"github.com/liaogang/hertz/pkg/app/server/registry"
 )
 
 var _ registry.Registry = (*MockRegistry)(nil)

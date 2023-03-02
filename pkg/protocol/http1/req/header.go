@@ -47,13 +47,13 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cloudwego/hertz/internal/bytestr"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/ext"
+	"github.com/liaogang/hertz/internal/bytestr"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/utils"
+	"github.com/liaogang/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/protocol/http1/ext"
 )
 
 var errEOFReadHeader = errs.NewPublic("error when reading request headers: EOF")

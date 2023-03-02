@@ -45,8 +45,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/nocopy"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	"github.com/liaogang/hertz/internal/nocopy"
 )
 
 const (

@@ -46,12 +46,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/bytestr"
-	"github.com/cloudwego/hertz/internal/nocopy"
-	"github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/cloudwego/hertz/pkg/common/utils"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	"github.com/liaogang/hertz/internal/bytestr"
+	"github.com/liaogang/hertz/internal/nocopy"
+	"github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/hlog"
+	"github.com/liaogang/hertz/pkg/common/utils"
 )
 
 const (

@@ -46,12 +46,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/nocopy"
-	"github.com/cloudwego/hertz/pkg/common/bytebufferpool"
-	"github.com/cloudwego/hertz/pkg/common/compress"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	"github.com/liaogang/hertz/internal/nocopy"
+	"github.com/liaogang/hertz/pkg/common/bytebufferpool"
+	"github.com/liaogang/hertz/pkg/common/compress"
+	"github.com/liaogang/hertz/pkg/common/utils"
+	"github.com/liaogang/hertz/pkg/network"
 )
 
 var responsePool sync.Pool

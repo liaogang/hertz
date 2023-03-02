@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/tracer/stats"
+	"github.com/liaogang/hertz/pkg/common/tracer/stats"
 )
 
 var _ HTTPStats = (*httpStats)(nil)

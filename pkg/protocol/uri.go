@@ -46,9 +46,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/bytestr"
-	"github.com/cloudwego/hertz/internal/nocopy"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	"github.com/liaogang/hertz/internal/bytestr"
+	"github.com/liaogang/hertz/internal/nocopy"
 )
 
 // AcquireURI returns an empty URI instance from the pool.

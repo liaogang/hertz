@@ -19,8 +19,8 @@ package ut
 import (
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 func TestResult(t *testing.T) {

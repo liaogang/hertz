@@ -19,9 +19,9 @@ package resp
 import (
 	"sync"
 
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/ext"
+	"github.com/liaogang/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol/http1/ext"
 )
 
 type chunkedBodyWriter struct {

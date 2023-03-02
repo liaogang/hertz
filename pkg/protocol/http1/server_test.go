@@ -23,17 +23,17 @@ import (
 	"sync"
 	"testing"
 
-	inStats "github.com/cloudwego/hertz/internal/stats"
-	"github.com/cloudwego/hertz/pkg/app"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/common/test/mock"
-	"github.com/cloudwego/hertz/pkg/common/tracer"
-	"github.com/cloudwego/hertz/pkg/common/tracer/stats"
-	"github.com/cloudwego/hertz/pkg/common/tracer/traceinfo"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/resp"
+	inStats "github.com/liaogang/hertz/internal/stats"
+	"github.com/liaogang/hertz/pkg/app"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/mock"
+	"github.com/liaogang/hertz/pkg/common/tracer"
+	"github.com/liaogang/hertz/pkg/common/tracer/stats"
+	"github.com/liaogang/hertz/pkg/common/tracer/traceinfo"
+	"github.com/liaogang/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol/http1/resp"
 )
 
 var pool = &sync.Pool{New: func() interface{} {

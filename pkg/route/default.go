@@ -19,7 +19,7 @@
 package route
 
 import (
-	"github.com/cloudwego/hertz/pkg/network/netpoll"
+	"github.com/liaogang/hertz/pkg/network/netpoll"
 )
 
 func init() {

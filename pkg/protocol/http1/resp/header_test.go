@@ -45,7 +45,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol"
 	"github.com/cloudwego/netpoll"
 )
 

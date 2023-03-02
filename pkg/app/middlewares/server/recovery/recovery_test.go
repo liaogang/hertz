@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/app"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 func TestRecovery(t *testing.T) {

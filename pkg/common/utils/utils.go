@@ -47,8 +47,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/internal/bytesconv"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
 )
 
 var errNeedMore = errs.New(errs.ErrNeedMore, errs.ErrorTypePublic, "cannot find trailing lf")

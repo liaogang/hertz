@@ -30,12 +30,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	c "github.com/cloudwego/hertz/pkg/app/client"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network/standard"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/app"
+	c "github.com/liaogang/hertz/pkg/app/client"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/utils"
+	"github.com/liaogang/hertz/pkg/network/standard"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 	"golang.org/x/sys/unix"
 )
 

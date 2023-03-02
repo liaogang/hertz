@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/common/test/mock"
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/mock"
+	"github.com/liaogang/hertz/pkg/protocol"
 )
 
 func Test_stripSpace(t *testing.T) {

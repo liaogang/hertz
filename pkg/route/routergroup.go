@@ -46,9 +46,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	rConsts "github.com/cloudwego/hertz/pkg/route/consts"
+	"github.com/liaogang/hertz/pkg/app"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
+	rConsts "github.com/liaogang/hertz/pkg/route/consts"
 )
 
 // IRouter defines all router handle interface includes single and group router.

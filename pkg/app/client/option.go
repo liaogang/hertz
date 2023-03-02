@@ -20,12 +20,12 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/client/retry"
-	"github.com/cloudwego/hertz/pkg/common/config"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/network/dialer"
-	"github.com/cloudwego/hertz/pkg/network/standard"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/app/client/retry"
+	"github.com/liaogang/hertz/pkg/common/config"
+	"github.com/liaogang/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/network/dialer"
+	"github.com/liaogang/hertz/pkg/network/standard"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 // WithDialTimeout sets dial timeout.

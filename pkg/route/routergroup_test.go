@@ -47,9 +47,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/config"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/app"
+	"github.com/liaogang/hertz/pkg/common/config"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestRouterGroupBasic(t *testing.T) {

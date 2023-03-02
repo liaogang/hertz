@@ -20,8 +20,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/app/client/discovery"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/app/client/discovery"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestWeightedBalancer(t *testing.T) {

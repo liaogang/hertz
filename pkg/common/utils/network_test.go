@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestTLSRecordHeaderLooksLikeHTTP(t *testing.T) {

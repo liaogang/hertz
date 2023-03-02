@@ -42,7 +42,7 @@
 package render
 
 import (
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol"
 	"google.golang.org/protobuf/proto"
 )
 

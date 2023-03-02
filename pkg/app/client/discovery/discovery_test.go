@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/app/server/registry"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/app/server/registry"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestInstance(t *testing.T) {

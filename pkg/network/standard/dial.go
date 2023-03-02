@@ -21,7 +21,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/liaogang/hertz/pkg/network"
 )
 
 type dialer struct{}

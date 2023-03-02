@@ -47,12 +47,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/hertz/internal/bytestr"
-	"github.com/cloudwego/hertz/pkg/common/config"
-	"github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/timer"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/internal/bytestr"
+	"github.com/liaogang/hertz/pkg/common/config"
+	"github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/timer"
+	"github.com/liaogang/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 const defaultMaxRedirectsCount = 16

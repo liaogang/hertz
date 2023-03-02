@@ -20,8 +20,8 @@ import (
 	"sync"
 
 	"github.com/bytedance/gopkg/lang/fastrand"
-	"github.com/cloudwego/hertz/pkg/app/client/discovery"
-	"github.com/cloudwego/hertz/pkg/common/hlog"
+	"github.com/liaogang/hertz/pkg/app/client/discovery"
+	"github.com/liaogang/hertz/pkg/common/hlog"
 	"golang.org/x/sync/singleflight"
 )
 

@@ -46,7 +46,7 @@ import (
 	"fmt"
 	"io"
 
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
 )
 
 var (

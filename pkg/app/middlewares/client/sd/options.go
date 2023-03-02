@@ -22,9 +22,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/cloudwego/hertz/pkg/app/client/discovery"
-	"github.com/cloudwego/hertz/pkg/app/client/loadbalance"
-	"github.com/cloudwego/hertz/pkg/app/server/registry"
+	"github.com/liaogang/hertz/pkg/app/client/discovery"
+	"github.com/liaogang/hertz/pkg/app/client/loadbalance"
+	"github.com/liaogang/hertz/pkg/app/server/registry"
 )
 
 // ServiceDiscoveryOptions service discovery option for client

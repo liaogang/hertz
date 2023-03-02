@@ -22,10 +22,10 @@ import (
 	"sync"
 	"testing"
 
-	inStats "github.com/cloudwego/hertz/internal/stats"
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/test/mock"
-	"github.com/cloudwego/hertz/pkg/common/tracer/traceinfo"
+	inStats "github.com/liaogang/hertz/internal/stats"
+	"github.com/liaogang/hertz/pkg/app"
+	"github.com/liaogang/hertz/pkg/common/test/mock"
+	"github.com/liaogang/hertz/pkg/common/tracer/traceinfo"
 )
 
 func BenchmarkServer_Serve(b *testing.B) {

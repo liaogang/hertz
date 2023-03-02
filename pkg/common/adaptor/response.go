@@ -19,8 +19,8 @@ package adaptor
 import (
 	"net/http"
 
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/protocol"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 type compatResponse struct {

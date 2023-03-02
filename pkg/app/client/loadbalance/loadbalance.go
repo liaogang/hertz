@@ -19,7 +19,7 @@ package loadbalance
 import (
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/client/discovery"
+	"github.com/liaogang/hertz/pkg/app/client/discovery"
 )
 
 // Loadbalancer picks instance for the given service discovery result.

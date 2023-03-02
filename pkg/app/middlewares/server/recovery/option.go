@@ -19,9 +19,9 @@ package recovery
 import (
 	"context"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/app"
+	"github.com/liaogang/hertz/pkg/common/hlog"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 type (

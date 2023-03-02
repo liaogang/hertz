@@ -44,8 +44,8 @@ package ext
 import (
 	"bytes"
 
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/utils"
+	errs "github.com/liaogang/hertz/pkg/common/errors"
+	"github.com/liaogang/hertz/pkg/common/utils"
 )
 
 var errInvalidName = errs.NewPublic("invalid header name")

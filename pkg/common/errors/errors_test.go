@@ -44,7 +44,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestError(t *testing.T) {

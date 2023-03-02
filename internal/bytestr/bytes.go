@@ -18,7 +18,7 @@
 package bytestr
 
 import (
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/liaogang/hertz/pkg/protocol/consts"
 )
 
 var (

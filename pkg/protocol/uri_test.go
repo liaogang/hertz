@@ -47,7 +47,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/liaogang/hertz/pkg/common/test/assert"
 )
 
 func TestURI_Username(t *testing.T) {
